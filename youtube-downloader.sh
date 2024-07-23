@@ -20,7 +20,7 @@ while true; do
 
 
    elif [[ "$yt_link" =~ ^https?://(www\.)?youtube\.com/ ]]; then
-       echo -e "${MAGENTA}where to store : "${NC};
+       echo -e "${MAGENTA}where to Download(Default = Downloads): "${NC};
        read loca
        echo -e "${YELLOW}Searching for the link and downloading the best audio and video...${NC}";
        if [ "$loca" == "" ]; then
@@ -32,7 +32,7 @@ while true; do
        fi
 
    else
-       echo -e "${MAGENTA}where to store : "${NC};
+       echo -e "${MAGENTA}where to Download(Default = Downloads): "${NC};
        read loca
        echo -e "${YELLOW}Searching and downloading the best audio and video file...${NC}";
        if [ "$loca" == "" ]; then

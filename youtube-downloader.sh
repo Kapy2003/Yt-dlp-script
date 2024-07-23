@@ -25,7 +25,7 @@ while true; do
        echo -e "${YELLOW}Searching for the link and downloading the best audio and video...${NC}";
        if [ "$loca" == "" ]; then
             # Default Download
-           yt-dlp -f "bestvideo+bestaudio" "$yt_link" -P "/hdd/Videos/yt-dlp/"
+           yt-dlp -f "bestvideo+bestaudio" "$yt_link" -P "~/Downloads"
        else
             yt-dlp -f "bestvideo+bestaudio" "$yt_link" -P "$loca"
 
@@ -37,7 +37,7 @@ while true; do
        echo -e "${YELLOW}Searching and downloading the best audio and video file...${NC}";
        if [ "$loca" == "" ]; then
             # Default Download
-           yt-dlp -f "bestvideo+bestaudio" ytsearch:"$yt_link" -P "/hdd/Videos/yt-dlp/"
+           yt-dlp -f "bestvideo+bestaudio" ytsearch:"$yt_link" -P "~/Downloads"
        else
             yt-dlp -f "bestvideo+bestaudio" ytsearch:"$yt_link" -P "$loca"
 

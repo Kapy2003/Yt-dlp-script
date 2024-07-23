@@ -10,7 +10,7 @@ NC='\e[0m'                  # No Color
 
 while true; do
    # To ask for the Link the user wants to download:
-   echo -e "${CYAN}Enter(link or name or 'exit' or 'q' to quit): ${NC}";
+   echo -e "${CYAN}Enter(link or name to download) or ('exit' or 'q' to quit): ${NC}";
    read yt_link
 
    # check if the user wants to exit

@@ -1,2 +1,2 @@
 # Yt-dlp-script
-Download yt videos 
+Download youtube videos directly into your Hard Drive
